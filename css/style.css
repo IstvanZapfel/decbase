@@ -184,8 +184,8 @@ h6 {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 1.125rem 1.125rem;
-  width: 142px;
-  height: 42px;
+  width: 8.875rem;
+  height: 2.625rem;
   background: var(--bg-accent);
   border-radius: 20px 0px;
   font-family: "OpenSans";
@@ -193,6 +193,7 @@ h6 {
   color: var(--text-accent);
   font-weight: 700;
   font-size: 1rem;
+  white-space: nowrap;
 }
 
 .button--fw {
@@ -200,29 +201,18 @@ h6 {
 }
 
 .button--header {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 6.0625rem;
   height: 2rem;
   background: var(--bg-inverse);
   border-radius: 15px 0px;
-  font-size: 1rem;
   color: var(--text-accent);
-  padding: 5px 17px;
+  padding: 0.3125rem 1.0625rem;
   font-weight: 600;
-  white-space: nowrap;
 }
 
 .button--blog {
-  width: 271px;
-  height: 53px;
+  width: 16.9375rem;
+  height: 2.1875rem;
   padding: 0.8125rem 2.1875rem;
   font-weight: 600;
   font-size: 1.125rem;
@@ -233,7 +223,7 @@ h6 {
   font-size: 1.125rem;
   padding: 0.1875rem 2.625rem;
   max-width: 11.25rem;
-  height: 50px;
+  height: 3.125rem;
 }
 
 input[type=text],
